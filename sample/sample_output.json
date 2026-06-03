@@ -1,0 +1,131 @@
+{
+  "analysisId": "sample-analysis-001",
+  "jobTitle": "Senior Full Stack Developer",
+  "totalProcessed": 2,
+  "successCount": 2,
+  "errorCount": 0,
+  "rankings": [
+    {
+      "rank": 1,
+      "resumeId": "resume-001",
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "overallScore": 85,
+      "skillsScore": 90,
+      "experienceScore": 82,
+      "educationScore": 80,
+      "tier": "Excellent",
+      "fitLevel": "Excellent",
+      "matchedSkills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
+      "missingSkills": ["GraphQL", "Kubernetes"],
+      "summary": "Strong candidate with extensive full-stack experience and excellent skills match."
+    },
+    {
+      "rank": 2,
+      "resumeId": "resume-002",
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "overallScore": 68,
+      "skillsScore": 72,
+      "experienceScore": 65,
+      "educationScore": 70,
+      "tier": "Good",
+      "fitLevel": "Good",
+      "matchedSkills": ["React", "JavaScript", "CSS"],
+      "missingSkills": ["Node.js", "TypeScript", "AWS", "PostgreSQL"],
+      "summary": "Decent frontend skills but lacking in backend experience required for this role."
+    }
+  ],
+  "results": [
+    {
+      "resumeId": "resume-001",
+      "name": "Jane Smith",
+      "email": "jane.smith@email.com",
+      "embeddingSimilarity": 78,
+      "parsedData": {
+        "name": "Jane Smith",
+        "email": "jane.smith@email.com",
+        "phone": "+1-555-0101",
+        "location": "San Francisco, CA",
+        "summary": "Senior Full Stack Developer with 6+ years of experience building scalable web applications using React, Node.js, and cloud technologies.",
+        "skills": ["React", "Node.js", "TypeScript", "JavaScript", "AWS", "PostgreSQL", "MongoDB", "Docker", "REST APIs", "Git"],
+        "experience": [
+          {
+            "title": "Senior Software Engineer",
+            "company": "TechCorp Inc.",
+            "duration": "2021 - Present",
+            "description": "Led development of customer-facing platform serving 1M+ users. Implemented microservices architecture using Node.js and AWS."
+          },
+          {
+            "title": "Software Engineer",
+            "company": "StartupXYZ",
+            "duration": "2019 - 2021",
+            "description": "Built React-based dashboard for analytics platform. Optimized database queries reducing load time by 40%."
+          }
+        ],
+        "education": [
+          {
+            "degree": "B.S. Computer Science",
+            "institution": "Stanford University",
+            "year": "2019",
+            "field": "Computer Science"
+          }
+        ],
+        "certifications": ["AWS Solutions Architect"],
+        "totalYearsExperience": 6
+      },
+      "scores": {
+        "skills": {
+          "score": 90,
+          "matchedSkills": ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
+          "missingSkills": ["GraphQL", "Kubernetes"],
+          "additionalSkills": ["MongoDB", "Docker"]
+        },
+        "experience": {
+          "score": 82,
+          "relevantExperience": "6 years of full-stack development including leadership roles"
+        },
+        "education": {
+          "score": 80,
+          "meetsRequirements": true
+        },
+        "overall": 85,
+        "fitLevel": "Excellent"
+      },
+      "feedback": {
+        "overallAssessment": "Jane is an excellent match for the Senior Full Stack Developer role. Her combination of React and Node.js expertise, cloud experience with AWS, and proven track record of building scalable applications makes her a top candidate.",
+        "strengths": [
+          {
+            "category": "Skills",
+            "title": "Strong Full-Stack Skill Set",
+            "detail": "Demonstrates proficiency in both frontend (React, TypeScript) and backend (Node.js, PostgreSQL) technologies that directly match the job requirements."
+          },
+          {
+            "category": "Experience",
+            "title": "Leadership Experience",
+            "detail": "Has led development teams and delivered large-scale products serving millions of users, showing ability to handle senior-level responsibilities."
+          }
+        ],
+        "improvements": [
+          {
+            "category": "Skills",
+            "title": "Add GraphQL Experience",
+            "detail": "The job description mentions GraphQL which is not present in the resume.",
+            "actionItem": "Consider adding any GraphQL projects or completing a GraphQL certification to strengthen the application."
+          }
+        ],
+        "suggestions": [
+          {
+            "type": "skill_gap",
+            "title": "Learn Kubernetes",
+            "description": "Adding container orchestration skills would make the profile even more competitive for senior roles."
+          }
+        ],
+        "resumeTips": [
+          "Quantify more achievements with specific metrics",
+          "Add a 'Technical Projects' section highlighting open-source contributions"
+        ]
+      }
+    }
+  ]
+}
